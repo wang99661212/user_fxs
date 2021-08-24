@@ -10,6 +10,10 @@ const routes = [
     component: () => import('@/views/index')
   },
   {
+    path: '/zhuangxiugonglue',
+    component: () => import('@/views/zhuangxiugonglue')
+  },
+  {
     path: '*',
     redirect: '/'
   }
