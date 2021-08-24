@@ -4,22 +4,22 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-    path: '/',
-    component: () => import('@/views/index')
-  },
-  {
-    path: '*',
-    redirect: '/'
-  }
+const routes = [{
+        path: '/',
+        component: () =>
+            import ('@/views/index')
+    },
+    {
+        path: '*',
+        redirect: '/'
+    }
 
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes
 })
 
 
