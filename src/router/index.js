@@ -17,6 +17,10 @@ const routes = [{
         path: "*",
         redirect: "/",
     },
+    {
+        path: '/xiaowang',
+        component: () => import('@/views/xiaowang')
+      },
 ];
 
 const router = new VueRouter({
