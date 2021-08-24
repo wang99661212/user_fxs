@@ -21,6 +21,10 @@ const routes = [{
         path: '/xiaowang',
         component: () => import('@/views/xiaowang')
       },
+      {
+        path: '/zb',
+        component: () => import('@/views/zb')
+      },
 ];
 
 const router = new VueRouter({
