@@ -1,0 +1,33 @@
+{
+	"result": [{
+		"_id": "59f087ef11945e2760c852dd",
+		"title": "笔记本电脑",
+		"cid": "59f1e4919bfd8f3bd030eed6",
+		"price": 2346,
+		"old_price": "4000",
+		"num":1,
+		"checked":false,
+		"pic": "http://jd.itying.com/upload/Hfe1i8QDOkfVt-PuGcxCA0fs.jpg",
+		"s_pic": "http://jd.itying.com/upload/Hfe1i8QDOkfVt-PuGcxCA0fs.jpg_200x200.jpg"
+	}, {
+		"_id": "59f6a2d27ac40b223cfdcf81",
+		"title": "乐扣乐扣(lock&lock)菲特旋转盖轻量杯",
+		"cid": "59f1e4919bfd8f3bd030eed6",
+		"price": "2001",
+		"old_price": "2001",
+		"num":2,
+		"checked":false,
+		"pic": "http://jd.itying.com/upload/iPrQ_-r43nGjFyxYXiMZWTM6.jpg",
+		"s_pic": "http://jd.itying.com/upload/iPrQ_-r43nGjFyxYXiMZWTM6.jpg_200x200.jpg"
+	}, {
+		"_id": "5a012cba64604635f4a2eae0",
+		"title": "小米 红米5A 全网通版 2GB+16GB 香槟金",
+		"cid": "5a05031e010e71123466144d",
+		"price": 599,
+		"old_price": "599.00",
+		"num":1,
+		"checked":false,
+		"pic": "http://jd.itying.com/upload/NkuiIr9puaI7cSxZHfz8UYOT.jpg",
+		"s_pic": "http://jd.itying.com/upload/NkuiIr9puaI7cSxZHfz8UYOT.jpg_200x200.jpg"
+	}]
+}
