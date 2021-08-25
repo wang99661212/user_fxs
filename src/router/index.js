@@ -34,6 +34,10 @@ const routes = [
     component: () => import('@/views/baili')
   },
   {
+    path: "/wzz",
+    component: () => import('@/views/wzz')
+  },
+  {
     path: '*',
     redirect: '/'
   }
