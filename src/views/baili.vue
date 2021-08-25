@@ -26,7 +26,9 @@
         </div>
       </div>
     </header>
-    <div class="con"></div>
+    <div class="con">
+      <p>8.25晚上练习，推拉项目</p>
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
