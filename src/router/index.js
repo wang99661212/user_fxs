@@ -30,8 +30,16 @@ const routes = [
     component: () => import('@/views/ln')
   },
   {
+    path: "/ln2",
+    component: () => import('@/views/ln2')
+  },
+  {
     path: "/baili",
     component: () => import('@/views/baili')
+  },
+  {
+    path: "/wzz",
+    component: () => import('@/views/wzz')
   },
   {
     path: '*',
