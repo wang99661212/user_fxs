@@ -42,6 +42,10 @@
       服务热线:400-600-99999
     </p>
     <p>练习</p>
+    <p>练习</p>
+    <p>练习</p>
+    <p>练习</p>
+    <p>练习</p>
   </div>
 </template>
 <style lang="scss" scoped>
