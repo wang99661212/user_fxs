@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from "vue";
+import VueRouter from "vue-router";
 
+Vue.use(VueRouter);
 
-Vue.use(VueRouter)
 
 const routes = [
   {
@@ -14,17 +14,31 @@ const routes = [
     component: () => import('@/views/zhuangxiugonglue')
   },
   {
+    path: "/li",
+    component: () => import("@/views/li")
+  },
+  {
+    path: '/xiaowang',
+    component: () => import('@/views/xiaowang')
+  },
+  {
+    path: '/zb',
+    component: () => import('@/views/zb')
+  },
+  {
+    path: "ln",
+    component: () => import('@/views/ln')
+  },
+  {
     path: '*',
     redirect: '/'
   }
-
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-
-export default router
+export default router;
