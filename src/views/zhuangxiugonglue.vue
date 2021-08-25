@@ -148,8 +148,26 @@
             </div>
         </div>
         <div class="bg"></div>
-        <div>
-            房先森互联网家装有别于传统装修公司与其他装修中介平台,以自营模式整合设计师与项目经理,杜绝项目转包外包,利用互联网将工地进行在线全景直播,通过去中间环节,提供装修套餐+个性化定制服务
+        <div class="brief">
+            房先森互联网家装有别于传统装修公司与其他装修中介平台,以自营模式整合设计师与项目经理,杜绝项目转包外包,利用互联网将工地进行在线全景直播,通过去中间环节,提供装修套餐+个性化定制服务。
+        </div>
+        <div class="bg"></div>
+        <div class="footr">
+          <p class="footr_top">
+            <i class="iconfont_huan">&#xe607;</i>
+            服务热线:400-9977-658
+          </p>
+          <div class="footr_bot">
+            <p>触屏版</p>
+            <p>电脑版</p>
+            <p>关于我们</p>
+            <p>联系我们</p>
+          </div>
+           <div class="footr_xia">
+             <img src="@/assets/切图/common/icon_close.png" alt="" class="foot_left">
+             <img src="@/assets/切图/quoten_bottom.png" alt="" class="foot_cen">
+             <button class="foot_but">免费获取报价</button>
+           </div>
         </div>
     </div>
 </template>
@@ -168,6 +186,61 @@ export default {
 };
 </script>
 <style lang='scss' scoped>
+.foot_but{
+  width: 177px;
+  height: 50px;
+  border-radius: 20px;
+  border:0;
+  background: #feb605;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 35px; 
+  font-size: 22px;
+}
+.foot_cen{
+  width: 425px;
+  height: 70px;
+  margin-right: 130px;
+  box-sizing: border-box;
+  }
+.footr_xia{
+  position: relative;
+  width: 100%;
+  background: rgba($color: #000000, $alpha: 0.4)
+}
+.foot_left{
+  width: 50px;
+  height: 44px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.footr_bot{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+.footr_top{
+  margin-top: 37px;
+
+}
+.footr{
+  width: 100%;
+  text-align: center;
+  height: 270px;
+}
+.brief{
+  text-indent: 2em;
+  font-size: 28px;
+  color: #6e6e6e;
+  padding-top: 30px;
+  padding-left: 17px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
 .tuijian_but{
     width: 100%;
     height: 70px;
