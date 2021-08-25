@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div>
     <header>
       <img src="@/assets/切图/logo.png" alt="" class="im">
@@ -407,11 +406,6 @@
     </div>
     <hr class="hr"> 
   </div>
-=======
-<div>
- 
-</div>
->>>>>>> bb6734424b8d878ee334640f35aa8afd0a1c1d00
 </template>
 
 <script>
