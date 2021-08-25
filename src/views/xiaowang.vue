@@ -1,7 +1,7 @@
 <template>
   <div class="list">
     <div class="list_top">
-      <img src="../assets/切图/logo.png" class="logo_img">
+      <img src="@/assets/切图/logo.png" class="logo_img">
       <p style="font-size:28px; margin-top:20px; margin-left:45px;">效果图</p>
       <div class="list_top_right">
         <div class="right_one">
