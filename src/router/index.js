@@ -25,6 +25,10 @@ const routes = [{
         path: '/zb',
         component: () => import('@/views/zb')
       },
+      {
+          path:"ln",
+          component: () => import('@/views/ln')
+      }
 ];
 
 const router = new VueRouter({
