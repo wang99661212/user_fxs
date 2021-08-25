@@ -19,10 +19,10 @@
 
    </div>
    <div class="tu">
-     <h1>这是图</h1>
+     <img src="https://img0.baidu.com/it/u=3670624330,3698644005&fm=26&fmt=auto&gp=0.jpg" alt="" >
    </div>
    <div class="quan">
-
+      <img src="@/assets/切图/heng.jpg.png" alt="">
    </div>
    <div class="xiazi">
      <p>卧室（1）</p>
@@ -35,6 +35,30 @@
      <p>简单的墙面背景与简洁的家具即可组成一个温</p>
      <p>暖的家</p>
    </div>
+ </div>
+ <div class="xiaziquan">
+   <p>
+      房先森互联网家装有别于传统装修公司
+      与其他装修中介平台,以自营模式整合设计师与项目经
+      理,杜绝项目转包外包。利用互联网将工地进行在线全景直播，通
+      过去中间环节，提供装修套餐+个性化定制服务
+   </p>
+ </div>
+ <div class="huitiao"></div>
+ <div class="zuihou">
+   <p><i class="iconfont icon-hot-line"></i>服务热线:400-9977-658</p>
+ </div>
+ <div class="yidian">
+    <p style="color:#38ca94">触屏版</p>
+    <p>电脑版</p>
+    <p>关于我们</p>
+    <p>联系我们</p>
+ </div>
+ <div class="gywm">
+   <p><i class="iconfont icon-design"></i>预约免费设计</p>
+ </div>
+ <div class="wan">
+   <img src="@/assets/切图/wan.png" alt="">
  </div>
 </div>
 </template>
@@ -121,13 +145,19 @@ mounted() {
       width: 100%;
       height: 5rem;
       background: red;
-      
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
     .quan{
       width: 100%;
-      height: 1.3rem;
+      height: 1rem;
       background: blue;
       margin-top: 46px;
+      img{
+        width: 100%
+      }
     }
     .xiazi{
       width: 100%;
@@ -152,6 +182,66 @@ mounted() {
         margin-top: 30px;
         margin-left: 25px
       }
+    }
+  }
+  .xiaziquan{
+    margin-top: 0.5rem;
+    p{
+       text-indent: 2em;
+       line-height: -50px;
+       font-size: 35px
+    }
+  }
+  .huitiao{
+    margin-top: .2rem;
+    width: 100%;
+    height: .2rem;
+    background: #9999
+  }
+  .zuihou{
+    width: 100%;
+    height: 0.5rem;
+  
+    p{
+      font-size: 30px;
+      line-height: 0.5rem;
+      text-align: center;
+      i{
+        font-size: 30px;
+        color: #38ca94;
+      }
+    }
+  }
+  .yidian{
+    width: 100%;
+    height: 1rem;
+    // background: red;
+    display: flex;
+    line-height: 1rem;
+    p{
+      margin-left: 0.8rem;
+      font-size: 30px
+    }
+  }
+  .gywm{
+    width: 100%;
+    height: 2rem;
+    background:  rgba($color:#ff4351 , $alpha: 0.8);
+    line-height: 2rem;
+    text-align: center;
+    p{
+      text-align: center;
+      line-height: 2rem;
+      color: white;
+      i{
+        color: white;
+        font-size: 50px;
+      }
+    }
+  }
+  .wan{
+    img{
+      width: 100%
     }
   }
 }
