@@ -4,7 +4,7 @@
             <div class="head_left"></div>
             <div class="cen">
                 <img src="@/assets/切图/关注.png" alt="" class="cen_img">
-                <p class="cen_bot">关注房先森官网微信公众号<span>sirfang_com</span></p>
+                <p class="cen_bot">关注房先森官网微信公众号<span class="head_span">sirfang_com</span></p>
             </div>
             <div class="head_rig"><i class="iconfont">&#xe60e;</i></div>
         </div>
@@ -186,6 +186,10 @@ export default {
 };
 </script>
 <style lang='scss' scoped>
+.head_span{
+  font-size: 15px;
+  color: #eed214;
+}
 .foot_but{
   width: 177px;
   height: 50px;
