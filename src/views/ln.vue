@@ -2,7 +2,7 @@
   <div class="big">
     <div class="xq_top">
       <div class="xq_top_left">
-        <img class="xq_top_img" src="@/assets/logo.png" alt />
+        <!-- <img class="xq_top_img" src="@/assets/logo.png" alt /> -->
         <span>装修预算</span>
       </div>
       <div class="xq_top_right">
@@ -42,7 +42,7 @@
         class="xq_kt_wz"
       >&emsp;&emsp;&emsp;导语：在装修时如果没有前提最好装修预算，很容易造成最后开支过大，添置很多没必要的增项。那么在做预算的时候又有什么需要注意的地方呢？</div>
       <div class="xq_kt_img">
-        <img src="@/assets/tu.png" alt />
+        <!-- <img src="@/assets/tu.png" alt /> -->
       </div>
       <div class="xq_kt_but">点击展开全文</div>
       <div class="xq_kt_icon">
@@ -60,7 +60,7 @@
       <p style="font-size:25px">猜你喜欢</p>
       <div class="xq_xh_box">
         <div class="xq_xh_box_left">
-          <img class="xq_xh_box_img" src="@/assets/1.png" alt />
+          <!-- <img class="xq_xh_box_img" src="@/assets/1.png" alt /> -->
         </div>
         <div class="xq_xh_box_right">
           <p>遇到有这样房子的男人就嫁了吧</p>
@@ -76,7 +76,7 @@
       </div>
       <div class="xq_xh_box">
         <div class="xq_xh_box_left">
-          <img class="xq_xh_box_img" src="@/assets/3.png" alt />
+          <!-- <img class="xq_xh_box_img" src="@/assets/3.png" alt /> -->
         </div>
         <div class="xq_xh_box_right">
           <p>遇到有这样房子的男人就嫁了吧</p>
@@ -92,7 +92,7 @@
       </div>
       <div class="xq_xh_box">
         <div class="xq_xh_box_left">
-          <img class="xq_xh_box_img" src="@/assets/1.png" alt />
+          <!-- <img class="xq_xh_box_img" src="@/assets/1.png" alt /> -->
         </div>
         <div class="xq_xh_box_right">
           <p>能让您涨工资的家居风水！</p>
@@ -108,7 +108,7 @@
       </div>
       <div class="xq_xh_box">
         <div class="xq_xh_box_left">
-          <img class="xq_xh_box_img" src="@/assets/3.png" alt />
+          <!-- <img class="xq_xh_box_img" src="@/assets/3.png" alt /> -->
         </div>
         <div class="xq_xh_box_right">
           <p>遇到有这样房子的男人就嫁了吧</p>
@@ -124,7 +124,7 @@
       </div>
       <div class="xq_xh_box">
         <div class="xq_xh_box_left">
-          <img class="xq_xh_box_img" src="@/assets/1.png" alt />
+          <!-- <img class="xq_xh_box_img" src="@/assets/1.png" alt /> -->
         </div>
         <div class="xq_xh_box_right">
           <p>能让您涨工资的家居风水！</p>
@@ -151,7 +151,7 @@
       </div>
     </div>
     <div>
-      <img style="background:#333333" src="@/assets/quoten_bottom.png" alt="">
+      <!-- <img style="background:#333333" src="@/assets/quoten_bottom.png" alt=""> -->
     </div>
   </div>
 </template>

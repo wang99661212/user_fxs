@@ -1,15 +1,15 @@
 <template>
   <div class="list">
     <div class="list_top">
-      <img src="../../public/img/logo.png" class="logo_img">
+      <!-- <img src="../../public/img/logo.png" class="logo_img"> -->
       <p style="font-size:28px; margin-top:20px; margin-left:45px;">效果图</p>
       <div class="list_top_right">
         <div class="right_one">
-          <img src="../../public/img/my.png" width="38px" height="38px">
+          <!-- <img src="../../public/img/my.png" width="38px" height="38px"> -->
           <p style="font-size:16px; margin-left:3px; color:#999999;">我的</p>
         </div>
         <div class="right_two">
-          <img src="../../public/img/gang.png" width="38px" height="38px">
+          <!-- <img src="../../public/img/gang.png" width="38px" height="38px"> -->
           <p style="font-size:16px; margin-left:3px; color:#999999;">导航</p>
         </div>
       </div>
